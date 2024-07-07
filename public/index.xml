@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>w1ndycatの垃圾站</title>
+        <link>http://example.org/</link>
+        <description>w1ndycatの垃圾站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 06 Jul 2024 16:40:39 &#43;0800</lastBuildDate>
+            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Hello,world</title>
+    <link>http://example.org/posts/helloworld/</link>
+    <pubDate>Sat, 06 Jul 2024 16:40:39 &#43;0800</pubDate><author>
+        <name>w1ndycat</name>
+    </author><guid>http://example.org/posts/helloworld/</guid>
+    <description><![CDATA[<p>这是本博客的第一篇文章！💀
+<img class="tw-inline" loading="lazy" src="https://usepic.w1ndyc.at/2024/07/75164e539ec4899395442b042c9dc58.jpg"   alt="可爱fumo(测试图片)"  ></p>
+]]></description>
+</item></channel>
+</rss>
