@@ -1,6 +1,6 @@
 # 关于
 
-%<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7MDbt6zQQu37YFeVcOpb4U?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>%
+{{< youtube IAxEAHRg4EE >}}
 
 ## 关于站长
 
