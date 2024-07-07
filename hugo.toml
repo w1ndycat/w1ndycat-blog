@@ -42,13 +42,21 @@ images = ["https://usepic.w1ndyc.at/avatar.png"]
     title = ""
     weight = 3
   [[menu.main]]
+    identifier = "friendslink"
+    pre = ""
+    post = ""
+    name = "友情链接"
+    url = "/friends/"
+    title = ""
+    weight = 4
+  [[menu.main]]
     identifier = "aboutpage"
     pre = ""
     post = ""
     name = "关于"
     url = "/about/"
     title = ""
-    weight = 4
+    weight = 5
 
 # 页面头部导航栏配置
   [params.header]
