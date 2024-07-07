@@ -110,10 +110,10 @@ images = ["https://usepic.w1ndyc.at/avatar.png"]
       social = true
 # 作者的社交信息设置
   [params.social]
-    GitHub = "https://github.com/w1ndycat"
-    Twitter = "x.com/w1ndycat"
-    Telegram = "t.me/w1ndycat"
-    Steam = "https://steamcommunity.com/profiles/76561199160369106/"
+    GitHub = "w1ndycat"
+    Twitter = "w1ndycat"
+    Telegram = "w1ndycat"
+    Steam = "76561199160369106/"
     Matrix = "@w1ndycat:matrix.org"
     Mastodon = "https://wxw.moe/@w1ndycat" 
     RSS = true
