@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://w1ndyc.at/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -12,7 +12,7 @@ defaultTheme = "auto"
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
 # 网站图片, 用于 Open Graph 和 Twitter Cards
-images = ["https://usepic.w1ndyc.at/avatar.png"]
+images = ["https://usepic.w1ndyc.at/new-avatar.png"]
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -105,7 +105,7 @@ images = ["https://usepic.w1ndyc.at/avatar.png"]
       # 主页显示头像的 URL
       # 将你的头像文件放置于 static 或者 assets 目录下
       # 文件路径是相对于 static 或者 assets 目录的
-      avatarURL = "https://pic.w1ndyc.at/avatar.png"
+      avatarURL = "https://pic.w1ndyc.at/new-avatar.png"
       # 头像的链接指向的 URL
       avatarLinkURL = "https://t.me/w1ndycatchan"
       # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
@@ -128,7 +128,7 @@ images = ["https://usepic.w1ndyc.at/avatar.png"]
 [author]
   name = "w1ndycat"
   link = ""
-  avatar = "https://usepic.w1ndyc.at/avatar.png"
+  avatar = "https://usepic.w1ndyc.at/new-avatar.png"
   gravatarEmail = ""
 
 
