@@ -2,9 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/helloworld/</loc><lastmod>2024-07-06T16:40:39&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2024-07-06T16:40:39&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/</loc><lastmod>2024-07-06T16:40:39&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/about/</loc></url><url>
-            <loc>http://example.org/categories/</loc></url><url>
-            <loc>http://example.org/tags/</loc></url></urlset>
+            <loc>http://w1ndyc.at/posts/helloworld/</loc><lastmod>2024-07-06T16:40:39&#43;08:00</lastmod></url><url>
+            <loc>http://w1ndyc.at/posts/</loc><lastmod>2024-07-06T16:40:39&#43;08:00</lastmod></url><url>
+            <loc>http://w1ndyc.at/</loc><lastmod>2024-07-06T16:40:39&#43;08:00</lastmod></url><url>
+            <loc>http://w1ndyc.at/about/</loc></url><url>
+            <loc>http://w1ndyc.at/friends/</loc></url><url>
+            <loc>http://w1ndyc.at/categories/</loc></url><url>
+            <loc>http://w1ndyc.at/tags/</loc></url></urlset>
