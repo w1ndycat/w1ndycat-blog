@@ -194,7 +194,7 @@ images = ["https://usepic.w1ndyc.at/new-avatar.png"]
     noClasses = false
 # 设置网站图标？
 [params]
-  favicon = "favicon.ico"
+  favicon = "https://pic.w1ndyc.at/favicon.ico"
   
  # DoIt 新增 | 0.2.0 搜索配置
   [params.search]

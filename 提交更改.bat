@@ -1,3 +1,4 @@
+hugo
 git add -A
 echo Your commit is:
 set /p commit=
