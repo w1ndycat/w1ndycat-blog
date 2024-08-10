@@ -105,7 +105,7 @@ images = ["https://usepic.w1ndyc.at/new-avatar.png"]
       # 主页显示头像的 URL
       # 将你的头像文件放置于 static 或者 assets 目录下
       # 文件路径是相对于 static 或者 assets 目录的
-      avatarURL = "https://pic.w1ndyc.at/new-avatar.png"
+      avatarURL = "https://usepic.w1ndyc.at/new-avatar.png"
       # 头像的链接指向的 URL
       avatarLinkURL = "https://t.me/w1ndycatchan"
       # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
