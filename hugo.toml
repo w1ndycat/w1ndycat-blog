@@ -12,7 +12,7 @@ defaultTheme = "auto"
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
 # 网站图片, 用于 Open Graph 和 Twitter Cards
-images = ["https://usepic.w1ndyc.at/new-avatar.png"]
+images = ["https://pic.w1ndyc.at/newavatar2.jpg"]
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -105,11 +105,11 @@ images = ["https://usepic.w1ndyc.at/new-avatar.png"]
       # 主页显示头像的 URL
       # 将你的头像文件放置于 static 或者 assets 目录下
       # 文件路径是相对于 static 或者 assets 目录的
-      avatarURL = "https://usepic.w1ndyc.at/new-avatar.png"
+      avatarURL = "https://pic.w1ndyc.at/newavatar2.jpg"
       # 头像的链接指向的 URL
       avatarLinkURL = "https://t.me/w1ndycatchan"
       # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = "你好🙃"
+      title = "冬装灵梦是世界上最可爱的生物"
       # 主页显示的网站副标题
       subtitle = "这里是w1ndycatの垃圾站"
       # 是否为副标题显示打字机动画
@@ -129,7 +129,7 @@ images = ["https://usepic.w1ndyc.at/new-avatar.png"]
 [author]
   name = "w1ndycat"
   link = ""
-  avatar = "https://usepic.w1ndyc.at/new-avatar.png"
+  avatar = "https://pic.w1ndyc.at/newavatar2.jpg"
   gravatarEmail = ""
 
 
