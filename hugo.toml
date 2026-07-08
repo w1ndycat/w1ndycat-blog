@@ -109,7 +109,7 @@ images = ["https://pic.w1ndyc.at/newavatar2.jpg"]
       # 头像的链接指向的 URL
       avatarLinkURL = "https://t.me/w1ndycatchan"
       # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = "冬装灵梦是世界上最可爱的生物"
+      title = "暂时无法访问您的大脑。"
       # 主页显示的网站副标题
       subtitle = "这里是w1ndycatの垃圾站"
       # 是否为副标题显示打字机动画
@@ -123,7 +123,7 @@ images = ["https://pic.w1ndyc.at/newavatar2.jpg"]
     Telegram = "w1ndycat"
     Steam = "76561199160369106/"
     Matrix = "@w1ndycat:matrix.org"
-    Email = "me@w1ndyc.at"
+    Email = "w1ndycatchan@gmail.com"
     RSS = true
 # 作者配置
 [author]
