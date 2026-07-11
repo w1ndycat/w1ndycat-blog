@@ -1,6 +1,6 @@
-locale = "de-DE"
-label = "Deutsch (Deutschland)"
-direction = "ltr"
+languageCode = "de-DE"
+languageName = "Deutsch (Deutschland)"
+languageDirection = "ltr"
 weight = 4
 
 title = "Congo"

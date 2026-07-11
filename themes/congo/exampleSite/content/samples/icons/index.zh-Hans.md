@@ -1,7 +1,7 @@
 ---
 title: "图标"
 date: 2020-08-14
-lastmod: 2025-05-04
+lastmod: 2023-01-23
 draft: false
 description: "Congo中的图标支持"
 slug: "icons"
@@ -40,23 +40,18 @@ Congo内置了对多个[FontAwesome 6](https://fontawesome.com/icons)图标的�
 | github               | {{< icon github >}}               |
 | gitlab               | {{< icon gitlab >}}               |
 | globe                | {{< icon globe >}}                |
-| goodreads            | {{< icon goodreads >}}            |
 | google               | {{< icon google >}}               |
-| google-scholar       | {{< icon google-scholar >}}       |
 | hashnode             | {{< icon hashnode >}}             |
 | instagram            | {{< icon instagram >}}            |
 | keybase              | {{< icon keybase >}}              |
 | kickstarter          | {{< icon kickstarter >}}          |
-| kofi                 | {{< icon kofi >}}                 |
 | lastfm               | {{< icon lastfm >}}               |
 | lightbulb            | {{< icon lightbulb >}}            |
-| line                 | {{< icon line >}}                 |
 | link                 | {{< icon link >}}                 |
 | linkedin             | {{< icon linkedin >}}             |
 | list                 | {{< icon list >}}                 |
 | mastodon             | {{< icon mastodon >}}             |
 | medium               | {{< icon medium >}}               |
-| mendeley             | {{< icon mendeley>}}              |
 | microsoft            | {{< icon microsoft >}}            |
 | mobile               | {{< icon mobile >}}               |
 | moon                 | {{< icon moon >}}                 |
@@ -65,10 +60,8 @@ Congo内置了对多个[FontAwesome 6](https://fontawesome.com/icons)图标的�
 | pencil               | {{< icon pencil >}}               |
 | phone                | {{< icon phone >}}                |
 | pinterest            | {{< icon pinterest >}}            |
-| podcast              | {{< icon podcast >}}              |
 | reddit               | {{< icon reddit >}}               |
 | researchgate         | {{< icon researchgate >}}         |
-| rss                  | {{< icon rss >}}                  |
 | search               | {{< icon search >}}               |
 | skull-crossbones     | {{< icon skull-crossbones >}}     |
 | slack                | {{< icon slack >}}                |
@@ -76,7 +69,6 @@ Congo内置了对多个[FontAwesome 6](https://fontawesome.com/icons)图标的�
 | soundcloud           | {{< icon soundcloud >}}           |
 | stack-overflow       | {{< icon stack-overflow >}}       |
 | steam                | {{< icon steam >}}                |
-| strava               | {{< icon strava >}}               |
 | sun                  | {{< icon sun >}}                  |
 | tag                  | {{< icon tag >}}                  |
 | telegram             | {{< icon telegram >}}             |
@@ -87,9 +79,8 @@ Congo内置了对多个[FontAwesome 6](https://fontawesome.com/icons)图标的�
 | tumblr               | {{< icon tumblr >}}               |
 | twitch               | {{< icon twitch >}}               |
 | twitter              | {{< icon twitter >}}              |
-| weibo                | {{< icon weibo >}}                |
 | whatsapp             | {{< icon whatsapp >}}             |
 | x-twitter            | {{< icon x-twitter >}}            |
-| xing                 | {{< icon xing >}}                 |
 | xmark                | {{< icon xmark >}}                |
+| xing                 | {{< icon xing >}}                 |
 | youtube              | {{< icon youtube >}}              |

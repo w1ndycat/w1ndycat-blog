@@ -17,14 +17,14 @@ The theme ships with a default configuration that gets you up and running with a
 The default theme configuration is documented in each file so you can freely adjust the settings to meet your needs.
 
 {{< alert >}}
-As outlined in the [installation instructions]({{< ref "/docs/installation#set-up-theme-configuration-files" >}}), you should adjust your theme configuration by modifying the files in the `config/_default/` folder of your Hugo project and delete the `hugo.toml` file in your project root.
+As outlined in the [installation instructions]({{< ref "/docs/installation#set-up-theme-configuration-files" >}}), you should adjust your theme configuration by modifying the files in the `config/_default/` folder of your Hugo project and delete the `config.toml` file in your project root.
 {{< /alert >}}
 
 ## Site configuration
 
 Standard Hugo configuration variables are respected throughout the theme, however there are some specific things that should be configured for the best experience.
 
-The site configuration is managed through the `config/_default/hugo.toml` file. The table below outlines all the settings that the Congo takes advantage of.
+The site configuration is managed through the `config/_default/config.toml` file. The table below outlines all the settings that the Congo takes advantage of.
 
 Note that the variable names provided in this table use dot notation to simplify the TOML data structure (ie. `outputs.home` refers to `[outputs] home`).
 
@@ -61,9 +61,7 @@ The theme currently supports the following languages out of the box:
 | Finnish               | `fi`      |
 | French                | `fr`      |
 | German                | `de`      |
-| Gujarati              | `gu`      |
 | Hebrew                | `he`      |
-| Hindi                 | `hi`      |
 | Hungarian             | `hu`      |
 | Indonesian            | `id`      |
 | Italian               | `it`      |
@@ -98,9 +96,9 @@ The default file can be used as a template to create additional languages, or re
 <!-- prettier-ignore-start -->
 |Name|Default|Description|
 |---|---|---|
-|`locale`|`"en"`|The Hugo language code for this file. It can be a top-level language (ie. `en`) or a sub-variant (ie. `en-AU`) and should match the language code in the filename.|
-|`label`|`"English"`|The name of the language.|
-|`direction`|`"ltr"`|Whether or not this is an RTL language. Set to `"rtl"` to reflow content from right-to-left. Congo fully supports using RTL and LTR languages at the same time and will dynamically adjust to both.|
+|`languageCode`|`"en"`|The Hugo language code for this file. It can be a top-level language (ie. `en`) or a sub-variant (ie. `en-AU`) and should match the language code in the filename.|
+|`languageName`|`"English"`|The name of the language.|
+|`languageDirection`|`"ltr"`|Whether or not this is an RTL language. Set to `"rtl"` to reflow content from right-to-left. Congo fully supports using RTL and LTR languages at the same time and will dynamically adjust to both.|
 |`weight`|`1`|The weight determines the order of languages when building multilingual sites.|
 |`title`|`"Congo"`|The title of the website. This will be displayed in the site header and footer.|
 |`copyright`|_Not set_|A Markdown string containing the copyright message to be displayed in the site footer. If none is provided, Congo will automatically generate a copyright string using the site `title`.|
@@ -169,7 +167,7 @@ Many of the article defaults here can be overridden on a per article basis by sp
 |`article.showTaxonomies`|`false`|Whether or not the taxonomies related to this article are displayed.|
 |`article.showWordCount`|`false`|Whether or not article word counts are displayed.|
 |`article.showComments`|`false`|Whether or not the [comments partial]({{< ref "partials#comments" >}}) is included after the article footer.|
-|`article.sharingLinks`|_Not set_|An array of sharing links to display at the end of each article. Valid options include `facebook`, `x-twitter`, `mastodon`, `pinterest`, `reddit`, `linkedin`, `email`, `threads`, `telegram`, `line`, `weibo`, `xing` and `bluesky`. When not provided, or set to `false`, no links will be displayed.|
+|`article.sharingLinks`|_Not set_|An array of sharing links to display at the end of each article. Valid options include `facebook`, `x-twitter`, `mastodon`, `pinterest`, `reddit`, `linkedin`, `email`, `threads`, `telegram` and `line`. When not provided, or set to `false`, no links will be displayed.|
 |`list.showBreadcrumbs`|`false`|Whether or not breadcrumbs are displayed in the header on list pages.|
 |`list.showTableOfContents`|`false`|Whether or not the table of contents is displayed on list pages.|
 |`list.showTaxonomies`|`false`|Whether or not the taxonomies related to this article are displayed on list pages.|
@@ -184,7 +182,6 @@ Many of the article defaults here can be overridden on a per article basis by sp
 |`plausibleAnalytics.script`|_Not set_|Plausible analysis script proxied URL. Refer to the [Analytics docs]({{< ref "partials#analytics" >}}) for more details.|
 |`umamiAnalytics.site`|_Not set_|The tracking code generated by Umami Analytics for the website. Refer to the [Analytics docs]({{< ref "partials#analytics" >}}) for more details.|
 |`umamiAnalytics.region`|`eu`|Select the Umami Analytics server region to connect to. The value is a string that can be either `eu` or `us`.|
-|`umamiAnalytics.script`|_Not set_|Custom script URL for Umami Analytics. Refer to the [Analytics docs]({{< ref "partials#analytics" >}}) for more details.|
 |`verification.google`|_Not set_|The site verification string provided by Google to be included in the site metadata.|
 |`verification.bing`|_Not set_|The site verification string provided by Bing to be included in the site metadata.|
 |`verification.pinterest`|_Not set_|The site verification string provided by Pinterest to be included in the site metadata.|

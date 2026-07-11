@@ -13,7 +13,7 @@ tags: ["new", "docs"]
 ## 步骤1：升级Hugo
 
 {{< alert >}}
-Congo 2.0 要求最低 **Hugo v0.158.0 或更高版本**
+Congo 2.0 要求最低 **Hugo v0.87.0 或更高版本**
 {{< /alert >}}
 
 Congo被设计以充分利用一些最新的Hugo功能。为避免任何问题，你应该定期保持Hugo的安装版本。
@@ -87,8 +87,31 @@ Congo 2.0 引入了许多新的主题配置参数。虽然主题会适应现有�
 ```toml
 # config/_default/languagues.en.toml
 
-locale = "en"
-label = "English"
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+htmlCode = "en"
+weight = 1
+rtl = false
+
+# Language-specific parameters go here
+```
+
+### Languages.toml
+
+为了提供多语言支持，特定于语言的主题参数已移至新的配置文件 `languages.[lang-code].toml`。主题附带一个模板文件 `languages.en.toml`，可作为参考。
+
+{{< alert >}}
+如果您不需要多语言支持，此步骤是可选的，但现在完成它将使未来的主题升级更容易。
+{{< /alert >}}
+
+语言配置文件遵循以下结构：
+
+```toml
+# config/_default/languagues.en.toml
+
+languageCode = "en"
+languageName = "English"
 displayName = "EN"
 htmlCode = "en"
 weight = 1
@@ -99,7 +122,7 @@ rtl = false
 
 使用你喜欢的语言，在 `config/_default/` 中创建这个新文件，然后将任何现有配置文件中的特定于语言的参数移到这个新文件中。下表概述了需要移动的参数。
 
-| 参数          | 旧位置        |
+| 参数           | 旧位置         |
 | ------------- | ------------- |
 | `title`       | `config.toml` |
 | `description` | `params.toml` |
@@ -164,13 +187,13 @@ Congo中深色模式的工作方式已更改，以提供更大的配置灵活性
 
 | 新
 
-| 参数                          | 类型   | 默认值  |
-| ----------------------------- | ------ | ------- |
-| `enableSearch`                | 布尔值 | `false` |
-| `showScrollToTop`             | 布尔值 | `true`  |
-| `article.showTaxonomies`      | 布尔值 | `false` |
-| `article.showTableOfContents` | 布尔值 | `false` |
-| `list.showTableOfContents`    | 布尔值 | `false` |
+参数                   | 类型    | 默认值 |
+| ----------------------- | ------- | ------- |
+| `enableSearch`           | 布尔值 | `false`  |
+| `showScrollToTop`        | 布尔值 | `true`   |
+| `article.showTaxonomies` | 布尔值 | `false`  |
+| `article.showTableOfContents` | 布尔值 | `false`  |
+| `list.showTableOfContents`    | 布尔值 | `false`  |
 
 有关支持的所有参数的完整列表，请参阅[配置]({{< ref "docs/configuration" >}})文档。
 
@@ -178,7 +201,7 @@ Congo中深色模式的工作方式已更改，以提供更大的配置灵活性
 
 除了favicon之外，现在所有站点assets都使用Hugo Pipes构建项目的优化版本。为了使主题能够定位你的文件，任何先前的静态主题assets需要移动到Hugo资产文件夹。主要是作者图片和站点标志：
 
-`static/me.jpg` **&rarr;** `assets/me.jpg`
+`static/me.jpg` **&rarr;** `assets/me.jpg`  
 `static/logo.jpg` **&rarr;** `assets/logo.jpg`
 
 如果你提供了作者图片或站点标志，只需将这些资产从 `static/` 移动到 `assets/`。如果使用相同的目录结构，主题将自动知道在哪里找到这些文件。如果想提供新的路径，相应地更新 `logo` 和 `author.image` 配置值。

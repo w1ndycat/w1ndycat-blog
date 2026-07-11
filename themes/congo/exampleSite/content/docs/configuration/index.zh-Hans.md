@@ -61,9 +61,7 @@ Congo 针对完整的多语言网站进行了优化，并且主题assets中已�
 | Finnish               | `fi`      |
 | French                | `fr`      |
 | German                | `de`      |
-| Gujarati              | `gu`      |
 | Hebrew                | `he`      |
-| Hindi                 | `hi`      |
 | Hungarian             | `hu`      |
 | Indonesian            | `id`      |
 | Italian               | `it`      |
@@ -98,9 +96,9 @@ Congo 针对完整的多语言网站进行了优化，并且主题assets中已�
 <!-- prettier-ignore-start -->
 |名称|默认值|描述|
 |---|---|---|
-|`locale`|`"en"`|此文件的 Hugo 语言代码。它可以是顶级语言（即 `en`）或子变体（即 `en-AU`），并应与文件名中的语言代码匹配。|
-|`label`|`"English"`|语言的名称。|
-|`direction`|`"ltr"`|这是否是 RTL 语言。设置为 `"rtl"` 以从右到左重新排列内容。Congo 完全支持同时使用 RTL 和 LTR 语言，并会动态调整到两者。|
+|`languageCode`|`"en"`|此文件的 Hugo 语言代码。它可以是顶级语言（即 `en`）或子变体（即 `en-AU`），并应与文件名中的语言代码匹配。|
+|`languageName`|`"English"`|语言的名称。|
+|`languageDirection`|`"ltr"`|这是否是 RTL 语言。设置为 `"rtl"` 以从右到左重新排列内容。Congo 完全支持同时使用 RTL 和 LTR 语言，并会动态调整到两者。|
 |`weight`|`1`|构建多语言站点时语言的顺序的权重。|
 |`title`|`"Congo"`|网站的标题。这将显示在站点标题和页脚中。|
 |`copyright`|_未设置_|包含要显示在站点页脚中的版权消息的 Markdown 字符串。如果未提供，则 Congo 将使用站点 `title` 自动生成版权字符串。|

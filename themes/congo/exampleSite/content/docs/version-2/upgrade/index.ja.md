@@ -13,7 +13,7 @@ Congo 2.0には多くの変更点が含まれていますが、最新リリー�
 ## Step 1: Hugoのアップグレード
 
 {{< alert >}}
-Congo 2.0は**Hugo v0.158.0以上**が必要です。
+Congo 2.0は**Hugo v0.87.0以上**が必要です。
 {{< /alert >}}
 
 Congoは、Hugoの最新機能のいくつかを利用するように作られています。問題を避けるために、定期的にHugoのインストールを最新の状態に保つ必要があります。
@@ -85,10 +85,10 @@ Congo 2.0では新しいテーマ設定パラメーターが多数導入され�
 言語設定ファイルはこのような構造になっています:
 
 ```toml
-# config/_default/languages.en.toml
+# config/_default/languagues.en.toml
 
-locale = "en"
-label = "English"
+languageCode = "en"
+languageName = "English"
 displayName = "EN"
 htmlCode = "en"
 weight = 1
@@ -125,10 +125,8 @@ config.toml`ファイルには、Hugoの基本設定値のみが含まれるよ�
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
+paginate = 10
 summaryLength = 0
-
-[pagination]
-  pagerSize = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
