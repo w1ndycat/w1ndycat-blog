@@ -25,7 +25,7 @@ fingerprintAlgorithm = "sha256"
   showScrollToTop = true
 
 [homepage]
-  layout = "page"                # 独立静态首页，和博客列表完全分开
+  layout = "profile"             # 头像 + 昵称 + 简介 + 社交账号，下面接 content/_index.md 的正文
   showRecent = false
 
 [article]
