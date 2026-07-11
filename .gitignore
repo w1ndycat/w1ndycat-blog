@@ -2,7 +2,8 @@ public/
 resources/
 .hugo_build.lock
 
-# leftover from a failed `git submodule add` attempt in a sandboxed
-# environment (FUSE permission quirk prevented cleanup) — safe to
-# delete manually via File Explorer whenever convenient.
-themes/_congo_broken_*/
+# leftover renamed folders from working around a sandbox filesystem
+# permission quirk (couldn't unlink these directly) — safe to delete
+# manually via File Explorer whenever convenient.
+themes/_congo_broken*/
+themes/_congo_v214_old*/
