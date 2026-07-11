@@ -1,0 +1,40 @@
+/* Classic scheme — 古典简约：米白底色 + 黛绿/绛红点缀 */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Warm stone gray */
+  --color-neutral-50: 250, 250, 249;
+  --color-neutral-100: 245, 245, 244;
+  --color-neutral-200: 231, 229, 228;
+  --color-neutral-300: 214, 211, 209;
+  --color-neutral-400: 168, 162, 158;
+  --color-neutral-500: 120, 113, 108;
+  --color-neutral-600: 87, 83, 78;
+  --color-neutral-700: 68, 64, 60;
+  --color-neutral-800: 41, 37, 36;
+  --color-neutral-900: 28, 25, 23;
+  --color-neutral-950: 12, 10, 9;
+  /* Muted burgundy (绛红) */
+  --color-primary-50: 253, 245, 244;
+  --color-primary-100: 250, 232, 230;
+  --color-primary-200: 245, 209, 204;
+  --color-primary-300: 235, 174, 165;
+  --color-primary-400: 217, 122, 106;
+  --color-primary-500: 193, 76, 60;
+  --color-primary-600: 163, 52, 40;
+  --color-primary-700: 133, 40, 32;
+  --color-primary-800: 105, 34, 28;
+  --color-primary-900: 82, 30, 26;
+  --color-primary-950: 44, 14, 12;
+  /* Muted pine green (黛绿) */
+  --color-secondary-50: 242, 247, 244;
+  --color-secondary-100: 224, 237, 229;
+  --color-secondary-200: 195, 219, 203;
+  --color-secondary-300: 152, 191, 165;
+  --color-secondary-400: 103, 156, 124;
+  --color-secondary-500: 66, 122, 92;
+  --color-secondary-600: 48, 97, 72;
+  --color-secondary-700: 40, 77, 59;
+  --color-secondary-800: 34, 61, 48;
+  --color-secondary-900: 29, 50, 40;
+  --color-secondary-950: 15, 28, 22;
+}

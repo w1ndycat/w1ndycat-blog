@@ -1,0 +1,40 @@
+# -- 主菜单（页头） --
+[[main]]
+  name = "博客"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "标签"
+  pageRef = "tags"
+  weight = 20
+
+[[main]]
+  name = "分类"
+  pageRef = "categories"
+  weight = 30
+
+[[main]]
+  name = "友情链接"
+  pageRef = "friends"
+  weight = 40
+
+[[main]]
+  name = "关于"
+  pageRef = "about"
+  weight = 50
+
+[[main]]
+  identifier = "search"
+  weight = 90
+  [main.params]
+    action = "search"
+    icon = "search"
+    showName = false
+
+# -- 页脚菜单 --
+# RSS 入口已经在个人资料的社交链接里了，这里先不额外加页脚菜单
+# [[footer]]
+#   name = "示例"
+#   pageRef = "example"
+#   weight = 10

@@ -1,0 +1,37 @@
+/* 古典简约风格的字体与细节调整
+   没有引入 Google Fonts（大陆访问不了），全部用系统自带的衬线字体做后备链 */
+
+html {
+  font-family:
+    "Noto Serif SC",
+    "Source Han Serif SC",
+    "Songti SC",
+    "STSong",
+    "SimSun",
+    "Noto Serif",
+    Georgia,
+    "Times New Roman",
+    serif;
+}
+
+.prose {
+  line-height: 1.85;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.prose blockquote {
+  font-style: normal;
+  border-left-width: 3px;
+}
+
+.prose a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}

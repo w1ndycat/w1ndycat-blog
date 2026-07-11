@@ -1,0 +1,18 @@
+# -- 这些设置是 Congo 主题正常工作所必需的 --
+
+[goldmark]
+[goldmark.renderer]
+  unsafe = true
+[goldmark.extensions]
+[goldmark.extensions.passthrough]
+  enable = true
+[goldmark.extensions.passthrough.delimiters]
+  block = [['\[', '\]'], ['$$', '$$']]
+  inline = [['\(', '\)']]
+
+[highlight]
+  noClasses = false
+
+[tableOfContents]
+  startLevel = 2
+  endLevel = 4

@@ -1,0 +1,29 @@
+# -- 站点基础配置 --
+# 主题相关的详细参数在 params.toml / languages.zh-cn.toml / menus.zh-cn.toml 里
+
+theme = "congo"
+baseURL = "https://w1ndyc.at/"
+languageCode = "zh-CN"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[privacy]
+  [privacy.vimeo]
+    enableDNT = true
+  [privacy.x]
+    enableDNT = true
+  [privacy.youTube]
+    privacyEnhanced = true
+
+[services]
+  [services.x]
+    disableInlineCSS = true
