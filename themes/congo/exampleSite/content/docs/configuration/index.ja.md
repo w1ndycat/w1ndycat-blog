@@ -35,7 +35,7 @@ Hugoの標準的な設定変数はテーマ全体を通して尊重されます�
 |`baseURL`|_Not set_|ウェブサイトのルートへのURL。|
 |`defaultContentLanguage`|`"en"`|この値はテーマコンポーネントとコンテンツのデフォルト言語を決定します。サポートされる言語コードについては、下記の[言語と国際化](#言語と国際化)セクションを参照してください。|
 |`enableRobotsTXT`|`true`|有効にすると、サイトルートに `robots.txt` ファイルが作成され、検索エンジンがサイト全体をクロールできるようになります。あらかじめ用意されている `robots.txt` を利用したい場合は、`false` に設定して `static` ディレクトリにファイルを置いてください。完全にコントロールしたい場合は、[カスタムレイアウト]({{< ref "content-examples" >}})を指定してこのファイルを生成することができます。|
-|`paginate`|`10`|記事一覧の各ページに掲載される記事の数。|
+|`pagination.pagerSize`|`10`|記事一覧の各ページに掲載される記事の数。|
 |`summaryLength`|`0`|記事の要約が[フロントマター]({{< ref "front-matter" >}})で提供されていない場合に、記事の要約を生成するために使われる単語の数。デフォルト値 `0` は最初の文章を使用します。この値は要約が非表示の場合には影響しません。|
 |`outputs.home`|`["HTML", "RSS", "JSON"]`|生成される出力フォーマット。Congoでは、すべてのテーマコンポーネントが正しく動作するために、HTML、RSS、JSONが必要です。|
 |`permalinks`|_Not set_|パーマリンクの設定は[Hugo docs](https://gohugo.io/content-management/urls/#permalinks)を参照してください。|
@@ -61,7 +61,9 @@ Congoは現在、以下の言語に対応しています:
 | Finnish               | `fi`      |
 | French                | `fr`      |
 | German                | `de`      |
+| Gujarati              | `gu`      |
 | Hebrew                | `he`      |
+| Hindi                 | `hi`      |
 | Hungarian             | `hu`      |
 | Indonesian            | `id`      |
 | Italian               | `it`      |
@@ -96,9 +98,9 @@ Congoは現在、以下の言語に対応しています:
 <!-- prettier-ignore-start -->
 |Name|Default|Description|
 |---|---|---|
-|`languageCode`|`"en"`|このファイルの言語コード。トップレベル言語 (例 `en`)またはサブ変数 (例 `en-AU`)で、ファイル名の `[language-code]` と一致する必要があります。|
-|`languageName`|`"English"`|言語名。|
-|`languageDirection`|`"ltr"`|RTL言語かどうか。 `"rtl"` に設定すると、コンテンツを右から左にリフローする。CongoはRTL言語とLTR言語の同時使用を完全にサポートしており、動的に両方の言語に調整します。|
+|`locale`|`"en"`|このファイルの言語コード。トップレベル言語 (例 `en`)またはサブ変数 (例 `en-AU`)で、ファイル名の `[language-code]` と一致する必要があります。|
+|`label`|`"English"`|言語名。|
+|`direction`|`"ltr"`|RTL言語かどうか。 `"rtl"` に設定すると、コンテンツを右から左にリフローする。CongoはRTL言語とLTR言語の同時使用を完全にサポートしており、動的に両方の言語に調整します。|
 |`weight`|`1`|多言語サイトを構築する際の優先順序。|
 |`title`|`"Congo"`|ウェブサイトのタイトル。サイトのヘッダーとフッターに表示されます。|
 |`copyright`|_Not set_|サイトのフッターに表示する著作権メッセージを含むMarkdown文字列。何も指定されない場合、Congoは `title` を使って自動的にコピーライト文字列を生成します。|

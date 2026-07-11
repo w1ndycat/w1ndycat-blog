@@ -3,7 +3,6 @@
 
 theme = "congo"
 baseURL = "https://w1ndyc.at/"
-languageCode = "zh-CN"
 defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 

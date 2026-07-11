@@ -15,3 +15,4 @@ description: "w1ndycat 的朋友们"
 
 ![云霄的小站](https://usepic.w1ndyc.at/2025/06/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250607155615.jpg)
 
+认识很多年的朋友了
