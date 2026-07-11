@@ -1,16 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>所有文章 - w1ndycatの垃圾站</title>
-        <link>http://w1ndyc.at/posts/</link>
-        <description>所有文章 | w1ndycatの垃圾站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 06 Jul 2024 16:40:39 &#43;0800</lastBuildDate><atom:link href="http://w1ndyc.at/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Hello,world</title>
-    <link>http://w1ndyc.at/posts/helloworld/</link>
-    <pubDate>Sat, 06 Jul 2024 16:40:39 &#43;0800</pubDate><author>
-        <name>w1ndycat</name>
-    </author><guid>http://w1ndyc.at/posts/helloworld/</guid>
-    <description><![CDATA[<p>这是本博客的第一篇文章！💀
-<img class="tw-inline" loading="lazy" src="https://usepic.w1ndyc.at/2024/07/75164e539ec4899395442b042c9dc58.jpg"   alt="可爱fumo(测试图片)"  ></p>
-]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>博客 on w1ndycatの垃圾站</title>
+		<link>https://w1ndyc.at/posts/</link>
+		<description>Recent content in 博客 on w1ndycatの垃圾站</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+			<copyright>&amp;copy; 2024-2026 w1ndycat &amp;middot; [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)</copyright>
+		
+		
+			<lastBuildDate>Sat, 06 Jul 2024 16:40:39 +0800</lastBuildDate>
+		
+			<atom:link href="https://w1ndyc.at/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Hello,world</title>
+				<link>https://w1ndyc.at/posts/helloworld/</link>
+				<pubDate>Sat, 06 Jul 2024 16:40:39 +0800</pubDate>
+				<guid>https://w1ndyc.at/posts/helloworld/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

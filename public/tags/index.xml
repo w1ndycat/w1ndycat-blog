@@ -1,7 +1,17 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tags - 标签 - w1ndycatの垃圾站</title>
-        <link>http://w1ndyc.at/tags/</link>
-        <description>Tags - 标签 - w1ndycatの垃圾站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="http://w1ndyc.at/tags/" rel="self" type="application/rss+xml" /></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on w1ndycatの垃圾站</title>
+		<link>https://w1ndyc.at/tags/</link>
+		<description>Recent content in Tags on w1ndycatの垃圾站</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+			<copyright>&amp;copy; 2024-2026 w1ndycat &amp;middot; [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)</copyright>
+		
+		
+			<atom:link href="https://w1ndyc.at/tags/index.xml" rel="self" type="application/rss+xml" />
+	</channel>
 </rss>
