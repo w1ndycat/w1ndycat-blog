@@ -1,4 +1,9 @@
-# 关于Z.A.T.O.与asya的一点感想
++++
+title = '关于Z.A.T.O.与asya的一点感想'
+date = 2026-07-20T17:36:00+08:00
+draft = false
+slug = 'zato-asya'
++++
 
 以下内容可能涉及剧透，文笔不好请见谅
 
