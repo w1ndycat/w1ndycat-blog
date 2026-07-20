@@ -1,21 +1,22 @@
 @echo off
+chcp 65001 >nul
 setlocal
 
-echo ===== 1/4 ¹¹½¨ÍøÕ¾ (hugo) =====
+echo ===== 1/4 æ„å»ºç½‘ç«™ (hugo) =====
 hugo
 if errorlevel 1 (
     echo.
-    echo [³ö´í] hugo ¹¹½¨Ê§°Ü£¬Çë¿´ÉÏÃæµÄ±¨´íĞÅÏ¢¡£Ã»ÓĞ add£¬Ã»ÓĞ commit£¬Ã»ÓĞ push¡£
+    echo [å‡ºé”™] hugo æ„å»ºå¤±è´¥ï¼Œè¯·çœ‹ä¸Šé¢çš„æŠ¥é”™ä¿¡æ¯ã€‚æ²¡æœ‰ addï¼Œæ²¡æœ‰ commitï¼Œæ²¡æœ‰ pushã€‚
     pause
     exit /b 1
 )
 
 echo.
-echo ===== 2/4 ¼ì²é¸Ä¶¯ =====
+echo ===== 2/4 æ£€æŸ¥æ”¹åŠ¨ =====
 set "hasChanges="
 for /f "delims=" %%i in ('git status --porcelain') do set "hasChanges=1"
 if not defined hasChanges (
-    echo Ã»ÓĞ¼ì²âµ½ÈÎºÎÎÄ¼ş¸Ä¶¯£¬²»ĞèÒªÌá½»¡£
+    echo æ²¡æœ‰æ£€æµ‹åˆ°ä»»ä½•æ–‡ä»¶æ”¹åŠ¨ï¼Œä¸éœ€è¦æäº¤ã€‚
     pause
     exit /b 0
 )
@@ -23,39 +24,39 @@ if not defined hasChanges (
 git add -A
 
 set "commit="
-set /p commit=ÇëÊäÈë±¾´ÎÌá½»ËµÃ÷£¨Ö±½Ó»Ø³µÔòÓÃÄ¬ÈÏËµÃ÷£©: 
-if "%commit%"=="" set "commit=¸üĞÂ²©¿Í %date% %time%"
+set /p commit=è¯·è¾“å…¥æœ¬æ¬¡æäº¤è¯´æ˜ï¼ˆç›´æ¥å›è½¦åˆ™ç”¨é»˜è®¤è¯´æ˜ï¼‰: 
+if "%commit%"=="" set "commit=æ›´æ–°åšå®¢ %date% %time%"
 
 git commit -m "%commit%"
 if errorlevel 1 (
     echo.
-    echo [³ö´í] git commit Ê§°Ü£¬Çë¿´ÉÏÃæµÄ±¨´íĞÅÏ¢¡£
+    echo [å‡ºé”™] git commit å¤±è´¥ï¼Œè¯·çœ‹ä¸Šé¢çš„æŠ¥é”™ä¿¡æ¯ã€‚
     pause
     exit /b 1
 )
 
 echo.
-echo ===== 3/4 À­È¡Ô¶¶Ë×îĞÂ¸Ä¶¯£¬±ÜÃâÍÆËÍ³åÍ» =====
+echo ===== 3/4 æ‹‰å–è¿œç«¯æœ€æ–°æ”¹åŠ¨ï¼Œé¿å…æ¨é€å†²çª =====
 git pull --rebase
 if errorlevel 1 (
     echo.
-    echo [³ö´í] git pull Ê§°Ü£¬¿ÉÄÜÓĞ³åÍ»ĞèÒªÊÖ¶¯´¦Àí¡£commit ÒÑ¾­±£´æÔÚ±¾µØ£¬
-    echo ´¦ÀíÍê³åÍ»ºó×Ô¼ºÊÖ¶¯ git push ¾ÍĞĞ£¬²»»á¶ª¸Ä¶¯¡£
+    echo [å‡ºé”™] git pull å¤±è´¥ï¼Œå¯èƒ½æœ‰å†²çªéœ€è¦æ‰‹åŠ¨å¤„ç†ã€‚commit å·²ç»ä¿å­˜åœ¨æœ¬åœ°ï¼Œ
+    echo å¤„ç†å®Œå†²çªåè‡ªå·±æ‰‹åŠ¨ git push å°±è¡Œï¼Œä¸ä¼šä¸¢æ”¹åŠ¨ã€‚
     pause
     exit /b 1
 )
 
 echo.
-echo ===== 4/4 ÍÆËÍµ½ GitHub =====
+echo ===== 4/4 æ¨é€åˆ° GitHub =====
 git push -u origin main
 if errorlevel 1 (
     echo.
-    echo [³ö´í] git push Ê§°Ü£¬Çë¿´ÉÏÃæµÄ±¨´íĞÅÏ¢¡£commit ÒÑ¾­±£´æÔÚ±¾µØ£¬
-    echo ¿ÉÒÔÉÔºóÖØĞÂÔËĞĞÕâ¸ö½Å±¾£¬»òÕßÊÖ¶¯ git push¡£
+    echo [å‡ºé”™] git push å¤±è´¥ï¼Œè¯·çœ‹ä¸Šé¢çš„æŠ¥é”™ä¿¡æ¯ã€‚commit å·²ç»ä¿å­˜åœ¨æœ¬åœ°ï¼Œ
+    echo å¯ä»¥ç¨åé‡æ–°è¿è¡Œè¿™ä¸ªè„šæœ¬ï¼Œæˆ–è€…æ‰‹åŠ¨ git pushã€‚
     pause
     exit /b 1
 )
 
 echo.
-echo ===== È«²¿Íê³É£¡=====
+echo ===== å…¨éƒ¨å®Œæˆï¼=====
 pause
