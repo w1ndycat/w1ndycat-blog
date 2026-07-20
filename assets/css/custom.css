@@ -35,3 +35,23 @@ html {
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
+
+/* -- 版心收窄 --
+   主题默认给 body 加的是 max-w-7xl（80rem / 1280px），而正文列只有 65ch 左右，
+   于是正文贴在左边、右边空出一大片。这里把整个版心收窄到 56rem，
+   让导航栏、文章标题、正文、页脚的左右边缘对齐在同一列里。
+
+   注意必须用 !important：max-w-7xl 是类选择器，优先级高于 body 元素选择器，
+   不加的话这条规则会被主题的类覆盖掉。 */
+body {
+  max-width: 56rem !important;
+}
+
+/* 带右侧目录（TOC）的文章，正文 + 目录并排需要更多横向空间，
+   所以在大屏下恢复成主题原本的宽度，避免正文被挤窄。
+   小屏上目录是堆叠在正文上方的，不需要额外宽度。 */
+@media (min-width: 1024px) {
+  body:has(.toc) {
+    max-width: 80rem !important;
+  }
+}
