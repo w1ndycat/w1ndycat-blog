@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Categories on w1ndycatの垃圾站</title>
-		<link>https://w1ndyc.at/categories/</link>
-		<description>Recent content in Categories on w1ndycatの垃圾站</description>
-		<generator>Hugo</generator>
-		<language>zh-CN</language>
-		
-		
-		
-			<copyright>&amp;copy; 2024-2026 w1ndycat &amp;middot; [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)</copyright>
-		
-		
-			<atom:link href="https://w1ndyc.at/categories/index.xml" rel="self" type="application/rss+xml" />
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on w1ndycatの垃圾站</title><link>https://w1ndyc.at/categories/</link><description>Recent content in Categories on w1ndycatの垃圾站</description><generator>Hugo</generator><language>zh-CN</language><copyright>&amp;copy; 2024-2026 w1ndycat &amp;middot; [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)</copyright><atom:link href="https://w1ndyc.at/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
